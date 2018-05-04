@@ -18,7 +18,10 @@ namespace HW_Module_9._2.Module
 
         public override void PrintInfo()
         {
-        
+            Console.WriteLine("Car's Marks " + Marcs);
+            Console.WriteLine("Car's Number " + Number);
+            Console.WriteLine("Car's Speed" + Speed);
+            Console.WriteLine("Car's Carrying Capacity" + CarryingCapacity());
         }
     }
 }

@@ -29,7 +29,10 @@ namespace HW_Module_9._2.Module
 
         public override void PrintInfo()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Motorcycle's Marks " + Marcs);
+            Console.WriteLine("Motorcycle's Number " + Number);
+            Console.WriteLine("Motorcycle's Speed" + Speed);
+            Console.WriteLine("Motorcycle's Carrying Capacity " + CarryingCapacity());
         }
     }
 }

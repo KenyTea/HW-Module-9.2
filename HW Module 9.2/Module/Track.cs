@@ -33,7 +33,10 @@ namespace HW_Module_9._2.Module
 
         public override void PrintInfo()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Track's Marks " + Marcs);
+            Console.WriteLine("Track's Number " + Number);
+            Console.WriteLine("Track's Speed" + Speed);
+            Console.WriteLine("Track's Carrying Capacity" + CarryingCapacity());
         }
     }
 }
