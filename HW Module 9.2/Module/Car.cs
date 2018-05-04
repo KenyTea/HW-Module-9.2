@@ -9,11 +9,15 @@ namespace HW_Module_9._2.Module
     со своими методами вывода информации на экран, и определения грузоподъемности.*/
     public class Car : Trans
     {
-        
+         
+         private  Random r = new Random();
+         int temp;
 
-        public override double CarryingCapacity()
+
+        public override int CarryingCapacity()
         {
-            return 0;
+          return  temp = r.Next(300, 600);
+            
         }
 
         public override void PrintInfo()

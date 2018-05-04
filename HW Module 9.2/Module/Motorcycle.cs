@@ -15,7 +15,7 @@ namespace HW_Module_9._2.Module
 
         public bool Carriage = true;
 
-        public override double CarryingCapacity()
+        public override int CarryingCapacity()
         {
             if (!Carriage)
             {

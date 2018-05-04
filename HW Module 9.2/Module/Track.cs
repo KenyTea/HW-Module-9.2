@@ -19,10 +19,11 @@ namespace HW_Module_9._2.Module
            
         }
 
-        public override double CarryingCapacity()
+        public override int CarryingCapacity()
         {
             if (Trailer)
             {
+
                return CarryCap *= 2;
             }
             else
