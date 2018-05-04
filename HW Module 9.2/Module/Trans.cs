@@ -13,7 +13,7 @@ namespace HW_Module_9._2.Module
 
     public abstract class Trans
     {
-
+        protected static  Random r = new Random();
         public Vehicale Marcs { get; set; }
         public string Number { get; set; }
         public int Speed { get; set; }

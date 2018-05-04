@@ -12,18 +12,17 @@ namespace HW_Module_9._2.Module
 
     public class Motorcycle : Trans
     {
-
-        public bool Carriage = true;
+        public int Carriage;
 
         public override int CarryingCapacity()
         {
-            if (!Carriage)
+            if ((Carriage = r.Next(0, 1)) == 0)
             {
                 return CarryCap = 0;
             }
             else
             {
-                return 0; //!!!!!!
+                return CarryCap = r.Next(10, 100);
             }
         }
 

@@ -12,23 +12,18 @@ namespace HW_Module_9._2.Module
 
     public class Track : Trans
     {
-        public bool Trailer = true;
-
-        public Track()
-        {
-           
-        }
+        public int Trailer;
 
         public override int CarryingCapacity()
         {
-            if (Trailer)
+            if ((Trailer = r.Next(0, 1)) == 1)
             {
 
-               return CarryCap *= 2;
+                return CarryCap *= 2;
             }
             else
             {
-                return 0; // !!!!
+                return CarryCap = r.Next(100, 1000);
             }
         }
 
