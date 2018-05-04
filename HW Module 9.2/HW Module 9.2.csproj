@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Module\Car.cs" />
+    <Compile Include="Module\GenegateTrans.cs" />
     <Compile Include="Module\Motorcycle.cs" />
     <Compile Include="Module\Track.cs" />
     <Compile Include="Module\Trans.cs" />
