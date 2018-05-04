@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HW_Module_9._2.Module;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,7 @@ namespace HW_Module_9._2
     {
         static void Main(string[] args)
         {
-            
+           
         }
     }
 }
