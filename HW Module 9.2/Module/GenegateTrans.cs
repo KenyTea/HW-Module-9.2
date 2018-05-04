@@ -25,7 +25,7 @@ namespace HW_Module_9._2.Module
             {
                 Car car = new Car();
                 temp = rand.Next(0, 4);
-                car.Marcs = temp;
+                car.Marcs = (Vehical)temp;
             }
         }
     }
