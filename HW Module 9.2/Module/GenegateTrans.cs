@@ -56,5 +56,18 @@ namespace HW_Module_9._2.Module
                 transport.Add(track); // закидываем в лист
             }
         }
+
+        public void PrintAll()
+        { 
+            
+            foreach (Trans item in transport)
+            {
+                Console.WriteLine("Marcs - " + item.Marcs);
+                Console.WriteLine("Number - " + item.Number);
+                Console.WriteLine("Speed - " + item.Speed);
+                Console.WriteLine("Capasity - " + item.CarryCap);
+                Console.WriteLine(" ");
+            }
+        }
     }
 }

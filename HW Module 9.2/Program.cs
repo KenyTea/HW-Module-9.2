@@ -23,7 +23,11 @@ namespace HW_Module_9._2
     {
         static void Main(string[] args)
         {
-           
+            GenegateTrans gen = new GenegateTrans();
+            gen.GeneratorCar();
+            gen.GeneranorCycle();
+            gen.GeneranorTrack();
+            gen.PrintAll();
         }
     }
 }
