@@ -68,6 +68,7 @@ namespace HW_Module_9._2.Module
                 Console.WriteLine("Capasity - " + item.CarryCap);
                 Console.WriteLine(" ");
             }
+            Console.WriteLine("---------------------------------------------------------------");
         }
     }
 }

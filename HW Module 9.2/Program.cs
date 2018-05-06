@@ -23,11 +23,30 @@ namespace HW_Module_9._2
     {
         static void Main(string[] args)
         {
+            List<Trans> tr = new List<Trans>();
             GenegateTrans gen = new GenegateTrans();
             gen.GeneratorCar();
             gen.GeneranorCycle();
             gen.GeneranorTrack();
             gen.PrintAll();
+
+            Console.WriteLine("Введите объём груза ");
+            int temp = int.Parse(Console.ReadLine());
+            foreach (Trans item in tr)
+            {
+                if (temp <= item.CarryCap)
+                {
+                    Console.WriteLine("Marcs - " + item.Marcs);
+                    Console.WriteLine("Number - " + item.Number);
+                    Console.WriteLine("Speed - " + item.Speed);
+                    Console.WriteLine("Capasity - " + item.CarryCap);
+                    Console.WriteLine(" ");
+                }
+                else
+                    Console.WriteLine("Подходящщего транспорта не нашлось");
+
+
+            }
         }
     }
 }
